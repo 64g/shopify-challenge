@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>File Upload</title>
+    <title>Image Upload</title>
   </head>
   <body>
     <h1>Image Upload</h1>
@@ -9,5 +9,9 @@
       <p><input type="file" name="file" multiple></p>
       <p><input type="submit" value="Submit"></p>
     </form>
+    <hr>
+    {% for file in files %}
+      <img src="{{ url_for('upload', filename=file) }}" style="width: 128px">
+    {% endfor %}
   </body>
 </html>
