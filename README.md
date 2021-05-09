@@ -1,4 +1,4 @@
-# shopify-image-repo
+# shopify-challenge
 ### Fall 2021 - Shopify Developer Intern Challenge Question
 This program attempts to solve the shopify fall 2021 internship challenge, especially for the adding images part. For now 
 the server supports ```.png```, ```.jpg```, and ```.gif``` and the size limit is 1MB.
