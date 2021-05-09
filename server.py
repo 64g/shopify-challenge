@@ -20,7 +20,7 @@ def validate_image(stream):
 
 @app.route('/')
 def index():
-    files = os.listdir(app.config['UPLOAD_PATH'])  # List images
+    files = os.listdir(app.config['UPLOAD_PATH'])
     return render_template('index.html', files=files)
 
 
