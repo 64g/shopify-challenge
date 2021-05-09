@@ -14,4 +14,4 @@ Sample test files are provided in ```tests``` folder. <br><br>
 .jpg supporting test: Upload ```image3.jpg```. The image should appear in the web page <br>
 File supporting negative test: Upload ```text.txt``` . The web page should throw bad request error, since this file is not a image. <br>
 Multiple images uploading test: Upload ```image1.png```, ```image2.gif```, ```image3.jpg```. The images should appear in the web page <br>
-File size negative test: Upload ```image.jpg``` . The web page should throw value transmitted exceeds the capacity limit error, since this file exceeds the size limit. <br>
+File size negative test: Upload ```image4.jpg``` . The web page should throw value transmitted exceeds the capacity limit error, since this file exceeds the size limit. <br>
